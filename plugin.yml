@@ -1,0 +1,34 @@
+name: CrystalTeleport
+main: crystal.main.CrystalTeleport
+version: 1.9.20
+api-version: 1.13
+author: kubab162	
+
+commands:
+ giveCrystal:
+  description: Add crystal
+  usage: /giveCrystal <home | spawn>
+  aliases: [home,spawn]
+  permission: admin
+ newhome:
+  description: SetHome
+  usage: /<comands> name
+ setspawn:
+  description: SetHome
+  usage: /setspawn
+  permission: admin
+ worldnewhome:
+  description: Enable/Disamble world create newhome
+  usage: /worldnewhome <enable | disamble>
+  permission: admin
+  
+permissions:
+ vip:
+  description: premium player
+ svip:
+  description: premium+ player
+ admin:
+  description: Administrator player
+  default: op
+  
+ 
